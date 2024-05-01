@@ -1,0 +1,46 @@
+.container{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     padding: 2%;
+}
+.emote{
+     width: 24px;
+     display: flex;
+     margin-right: 12px;
+}
+.option{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin: 1vh;
+     background-color: blue;
+     height: 32px;
+     border-radius: 2px;
+}
+.option:nth-child(1){
+     background-color: #69EC76;
+}
+.option:nth-child(2){
+     background-color: #B4F9C4;
+}
+.option:nth-child(3){
+     background-color: #ECF9BA;
+}
+.option:nth-child(4){
+     background-color: #F0C061;
+}
+.option:nth-child(5){
+     background-color: #F36464;
+}
+
+.square{
+     background-color: #FFF;
+     width: 32px;
+     height: 32px;
+     border: #000 dashed .5px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-left: 12px;
+}
