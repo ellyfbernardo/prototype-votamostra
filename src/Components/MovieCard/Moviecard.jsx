@@ -6,7 +6,7 @@ const Moviecard = () => {
 
 
      <div className='container'>
-               <img src="../src/assets/filme1.webp" alt="" />
+               <img src="filme1.webp" alt="" />
                <h2>O DIA QUE TE CONHECI</h2>
                <p>FICÇÃO, 77 MIN, CE, 2023, 10 ANOS <br/>
                DIREÇÃO: AMANDA PONTES E MICHELLINE HELENA</p>
@@ -17,7 +17,7 @@ const Moviecard = () => {
                     <p>5</p>
                   </div>
                   <div>
-                    <img src="../src/assets/emote5.png" className='emote'
+                    <img src="emote5.png" className='emote'
                     alt="" />
                    </div>
                 </div>
@@ -25,25 +25,25 @@ const Moviecard = () => {
                   <div className='square'>
                     <p>4</p>
                   </div><div>
-                  <img src="../src/assets/emote4.webp" className='emote' alt="" /></div>
+                  <img src="emote4.webp" className='emote' alt="" /></div>
                 </div>
                 <div className='option'>
                   <div className='square'>
                     <p>3</p>
                   </div><div>
-                  <img src="../src/assets/emote3.png" className='emote' alt="" /></div>
+                  <img src="emote3.png" className='emote' alt="" /></div>
                 </div>
                 <div className='option'>
                   <div className='square'>
                     <p>2</p>
                   </div><div>
-                  <img src="../src/assets/emote2.png" className='emote' alt="" /></div>
+                  <img src="emote2.png" className='emote' alt="" /></div>
                 </div>
                 <div className='option'>
                   <div className='square'>
                     <p>1</p>
                   </div><div>
-                  <img src="../src/assets/emote1.png" className='emote' alt="" /></div>
+                  <img src="emote1.png" className='emote' alt="" /></div>
                 </div>
             </div>
       </div>
