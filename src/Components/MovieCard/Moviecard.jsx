@@ -17,7 +17,7 @@ const Moviecard = () => {
                     <p>5</p>
                   </div>
                   <div>
-                    <img src="../src/assets/emotes/5.png" className='emote'
+                    <img src="../src/assets/5.png" className='emote'
                     alt="" />
                    </div>
                 </div>
@@ -25,25 +25,25 @@ const Moviecard = () => {
                   <div className='square'>
                     <p>4</p>
                   </div><div>
-                  <img src="../src/assets/emotes/4.webp" className='emote' alt="" /></div>
+                  <img src="../src/assets/4.webp" className='emote' alt="" /></div>
                 </div>
                 <div className='option'>
                   <div className='square'>
                     <p>3</p>
                   </div><div>
-                  <img src="../src/assets/emotes/3.png" className='emote' alt="" /></div>
+                  <img src="../src/assets/3.png" className='emote' alt="" /></div>
                 </div>
                 <div className='option'>
                   <div className='square'>
                     <p>2</p>
                   </div><div>
-                  <img src="../src/assets/emotes/2.png" className='emote' alt="" /></div>
+                  <img src="../src/assets/2.png" className='emote' alt="" /></div>
                 </div>
                 <div className='option'>
                   <div className='square'>
                     <p>1</p>
                   </div><div>
-                  <img src="../src/assets/emotes/1.png" className='emote' alt="" /></div>
+                  <img src="../src/assets/1.png" className='emote' alt="" /></div>
                 </div>
             </div>
       </div>
