@@ -1,4 +1,6 @@
 import './Moviecard.css'
+import filme1 from '../MovieCard/filme1.webp'
+
 
 const Moviecard = () => {
      return(
@@ -6,7 +8,8 @@ const Moviecard = () => {
 
 
      <div className='container'>
-               <img src="filme1.webp" alt="" />
+               {/* <img src="/filme1.webp" alt="" /> */}
+               <img src={filme1} alt="" />
                <h2>O DIA QUE TE CONHECI</h2>
                <p>FICÇÃO, 77 MIN, CE, 2023, 10 ANOS <br/>
                DIREÇÃO: AMANDA PONTES E MICHELLINE HELENA</p>
