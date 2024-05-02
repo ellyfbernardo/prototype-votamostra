@@ -1,4 +1,4 @@
-import Vote from "../../Components/Vote/Vote";
+import Vote from "../../Components/Vote";
 
 const Voteconfirmed = () =>{
      return(
