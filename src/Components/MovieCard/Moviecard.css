@@ -1,8 +1,29 @@
+.container-flex{
+     background-color: rgba(183, 125, 18, 0.571);
+     border-radius: 24px ;
+     padding: .5em;
+     margin-bottom: 4%;
+     max-width: 80vh;
+}
+h2{
+     font-size: 20px;
+     text-align: center;
+     color: #FFF;
+}
+.description {
+     text-align: center;
+     color: #FFF;
+
+}
+
 .container{
      display: flex;
      flex-direction: column;
      justify-content: center;
      padding: 2%;
+}
+.movie-image{
+     max-width: 80vh;
 }
 .emote{
      width: 24px;
@@ -17,6 +38,8 @@
      background-color: blue;
      height: 32px;
      border-radius: 2px;
+     max-width: 80vh;
+
 }
 .option:nth-child(1){
      background-color: #69EC76;

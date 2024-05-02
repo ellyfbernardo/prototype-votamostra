@@ -1,4 +1,4 @@
-import filme1 from '../MovieCard/filme1.webp'
+
 import emote5 from '../MovieCard/emote5.png'
 import emote4 from '../MovieCard/emote4.webp'
 import emote3 from '../MovieCard/emote3.png'
@@ -7,28 +7,29 @@ import emote1 from '../MovieCard/emote1.png'
 import './Moviecard.css'
 
 
-const Moviecard = () => {
+
+const Moviecard = (props) => {
      return(
 
 
-
+<div className='container-flex'>
      <div className='container'>
                {/* <img src="/filme1.webp" alt="" /> */}
-               <img src={filme1} alt="" />
-               <h2>O DIA QUE TE CONHECI</h2>
-               <p>FICÇÃO, 77 MIN, CE, 2023, 10 ANOS <br/>
-               DIREÇÃO: AMANDA PONTES E MICHELLINE HELENA</p>
+               <img src={props.img} alt="" className='movie-image'/>
+               <h2>{props.title}</h2>
+               <p className='description'>{props.description}</p>
 
             <div className='container-list'> 
-                <div className='option'>
-                  <div className='square'>
-                    <p>5</p>
+                <div className='option' >
+                    <div className='square'>
+                      <p>5</p>
+                    </div>
+                    <div>
+                      <img src={emote5} className='emote'
+                      alt="" />
+                    </div>
                   </div>
-                  <div>
-                    <img src={emote5} className='emote'
-                    alt="" />
-                   </div>
-                </div>
+                
                 <div className='option'>
                   <div className='square'>
                     <p>4</p>
@@ -55,7 +56,7 @@ const Moviecard = () => {
                 </div>
             </div>
       </div>
-          
+</div> 
      )
 }
 

@@ -1,0 +1,11 @@
+.background-vote{
+     width: 100vw;
+     height: 100vh;
+     background-color: #FF6100;
+     color: #FFF;
+     text-align: center;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+}
